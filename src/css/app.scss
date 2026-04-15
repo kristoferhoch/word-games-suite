@@ -1,1 +1,30 @@
 // app global css in SCSS form
+
+:root {
+  --wgs-blue: #2EA8FF;
+  --wgs-deep-blue: #1F6FDB;
+  --wgs-orange: #FF9F1C;
+  --wgs-golden-yellow: #FFC53A;
+  --wgs-green: #4CD964;
+  --wgs-pink: #FF4FA3;
+  --wgs-light-blue: #6ED0FF;
+  --wgs-soft-yellow: #FFE27A;
+  --wgs-purple-shadow: #5B3E96;
+  --wgs-dark-outline: #2C2C54;
+  --wgs-bg-light: #F5F7FA;
+  --wgs-card-white: #FFFFFF;
+  --wgs-text-primary: #1E1E2F;
+  --wgs-text-secondary: #6B7280;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(110, 208, 255, 0.45), transparent 30%),
+    radial-gradient(circle at top right, rgba(255, 226, 122, 0.55), transparent 28%),
+    linear-gradient(180deg, #ffffff 0%, var(--wgs-bg-light) 100%);
+  color: var(--wgs-text-primary);
+}
+
+#q-app {
+  min-height: 100vh;
+}
